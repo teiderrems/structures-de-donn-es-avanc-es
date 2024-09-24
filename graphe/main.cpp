@@ -28,7 +28,7 @@ int main(int argc,char * argv[]){
     g->printGraphe();
     std::cout<<std::endl;
     std::cout<<std::endl;
-    g->profondeur('a')->print();
+    g->largeur('a')->print();
     delete g;
     return EXIT_SUCCESS;
 }
